@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#start-btn{
+    margin: 10px 0px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(224, 98, 44);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#start-btn:hover{
+    background-color: rgb(255, 142, 89);
+}
+
+#stop-btn{
+    margin: 10px 0px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(224, 98, 44);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#stop-btn:hover{
+    background-color: rgb(255, 142, 89);
+}
+
+
+#Offmic{
+    margin: 10px 0px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(224, 98, 44);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#Offmic:hover{
+    background-color: rgb(255, 142, 89);
+} 
+
+#listening{
+    margin: 10px 0px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(224, 98, 44);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#listening:hover{
+    background-color: rgb(121, 5, 5);
+} 
+
+#status{
+    margin: 0px;
+    font-size: 15px;
+}
